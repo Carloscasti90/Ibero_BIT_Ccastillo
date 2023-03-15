@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    /* font-family: Helvetica, Arial,sans-serif; */
+    box-sizing: border-box;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+.flexbox {
+    display: flex;
+    margin: 100px auto;
+    max-width: 980px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.caja1 {
+    width: 65%;
+    display: flex;
+}
+
+.subCaja1 {
+    justify-items: center;
+    align-self: center;
+}
+
+.logoFacebook {
+    width: 380px;
+    height: 106px;
+    margin: -40px;
+    border: 0%;
+    justify-content: flex-start;
+
+}
+
+.textoBienvenida {
+    font-size: 28px;
+    width: 433px;
+    font-weight: normal;
+    color: black;
+    letter-spacing: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.cajaPadre {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+#cajaUsuario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 10px;
+
+    background: white;
+    padding-bottom: 31px;
+    padding-top: 10px;
+
+
+}
+
+.formulario {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background: white;
+}
+
+.botonUno {
+    width: 100%;
+    font-size: 17px;
+}
+
+.botonGeneral, .btnIniciar {
+    padding: 15px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #dddfe2;
+}
+
+.btnIniciar {
+    background-color: #1877f2;
+    color: white;
+    border-color: #1877f2;
+}
+
+.linkOlvidaste {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.lineaSeparador {
+    background: #dadde1;
+    width: 100%;
+    height: 1px;
+    margin: 20px 0
+}
+
+.btnCrear {
+    background-color: #42b72a;
+    border: 1px solid #42b72a;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.btnCrearCuenta {
+    padding-top: 15px;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    letter-spacing: 0.2px;
+}
+
+.btnCrear2 {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    .flexbox {
+        flex-direction: column;
+        margin: auto;
+        justify-content: space-between;
+
+    }
+
+    .subCaja1 {
+        margin: auto;
+        text-align: center;
+        width: 400px;
+        padding-right: 0;
+    }
+
+
+    .cajaPadre {
+
+        margin: auto;
+        flex-direction: column;
+        padding: 0 20px;
+        width: 300px;
+        justify-content: space-between;
+        display: flex;
+    }
+}
